@@ -191,11 +191,15 @@ python killEscaper.py -a 64 -f payload64.c
 
 CobaltStrike免杀上线：
 
+视频地址： **http://cdn.anyiblog.top/product/killescaper/video/killEscaper%E6%BC%94%E7%A4%BA_cs.mp4**
+
 <video src="http://cdn.anyiblog.top/product/killescaper/video/killEscaper%E6%BC%94%E7%A4%BA_cs.mp4" controls="controls" width=100% height=auto></video>
 
 
 
 Kali msf免杀上线：
+
+视频地址： **http://cdn.anyiblog.top/product/killescaper/video/killEscaper%E6%BC%94%E7%A4%BA_msf.mp4**
 
 <video src="http://cdn.anyiblog.top/product/killescaper/video/killEscaper%E6%BC%94%E7%A4%BA_msf.mp4" controls="controls" width=100% height=auto></video>
 
