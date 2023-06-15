@@ -67,7 +67,7 @@ def clean_output():
 def py2exe(name,icon='exeLogo.ico'):
     # 使用Pyinstaller转换python文件为exe
 
-    cmd = f"pyinstaller -F -w {pyname} --distpath output --specpath tempdir --workpath tempdir --clean -y"
+    cmd = f"pyinstaller -F -w {pyname} --distpath output --specpath tempdir --workpath tempdir --clean -y --upx-dir upx-4.0.1"
 
     if icon != None and os.path.exists(icon):
 
@@ -75,6 +75,8 @@ def py2exe(name,icon='exeLogo.ico'):
 
         cmd += f" --icon {icon}"
 
+    print('[*] Cmdline:',cmd)
+    
     try:
         subprocess.call(cmd,shell=True)
 
